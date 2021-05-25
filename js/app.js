@@ -1,18 +1,6 @@
 //descripcion de la variable db
 const db = firebase.firestore();
 
-/*db.collection("users").doc("VkbjF5ISxSuIU0M5W3h2").set({
-        name: "Los Angeles",
-        state: "CA",
-        country: "USA"
-    })
-    .then(() => {
-        console.log("Document successfully written!");
-    })
-    .catch((error) => {
-        console.error("Error writing document: ", error);
-    });
-*/
 var usersCollectionRef = db.collection('users')
 
 //Obtener formulario de envío
