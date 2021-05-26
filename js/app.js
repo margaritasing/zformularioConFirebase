@@ -10,7 +10,7 @@ let submitButton = document.getElementById('submit')
 submitButton.addEventListener("click", (e) => {
     //Evitar el comportamiento de envío de formularios predeterminado
     e.preventDefault()
-        //definir los campos
+        //traer los campos
     let nombre = document.getElementById('name').value
     let apellido = document.getElementById('surname').value
     let correo = document.getElementById('email').value
